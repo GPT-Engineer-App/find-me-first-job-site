@@ -40,10 +40,16 @@ const Index = () => {
         </FormControl>
 
         <Button leftIcon={<FaUserPlus />} colorScheme="orange" w="full">
-          Register
+          Register as Job Seeker
+        </Button>
+        <Button leftIcon={<FaUserTie />} colorScheme="orange" w="full">
+          Register as Recruiter/Company
+        </Button>
+        <Button leftIcon={<FaUserPlus />} colorScheme="orange" variant="outline" w="full">
+          Login as Job Seeker
         </Button>
         <Button leftIcon={<FaUserTie />} colorScheme="orange" variant="outline" w="full">
-          Login as Recruiter
+          Login as Recruiter/Company
         </Button>
         <HStack spacing={2} justify="center">
           <Text fontSize="sm">New here?</Text>
